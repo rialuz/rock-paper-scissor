@@ -1,0 +1,15 @@
+:root {
+  background: #DEF3FF;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Itim", cursive;
+}
