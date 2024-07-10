@@ -1,12 +1,11 @@
 :root {
   background: #DEF3FF;
+  margin: 0 auto;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
   font-weight: normal;
 }
 
