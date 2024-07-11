@@ -1,6 +1,7 @@
 :root {
   background: #DEF3FF;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 *,
