@@ -1,5 +1,6 @@
 <script setup>
 import MoveItem from "./MoveItem.vue";
+import Triangle from "./Triangle.vue"
 import { useGameStore } from "../stores/game.js";
 import rockImg from "../images/rock.png";
 import paperImg from "../images/paper.png";
@@ -22,6 +23,7 @@ const userFunc = (e) => {
       <MoveItem :clickFunc="userFunc" value="paper" :img="paperImg" />
       <MoveItem :clickFunc="userFunc" value="scissor" :img="scissorImg" />
     </div>
+    <Triangle />
   </div>
 </template>
 

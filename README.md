@@ -9,6 +9,7 @@ I've always had an interest in creating games and have been practing and working
 
 ### Future Work
 - Unit testing
+- Mobile Responsive
 - Allow for local co-op
 - SignUp/SignIn to enable users to view who they recently played with along with their scores. 
 
