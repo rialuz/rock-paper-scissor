@@ -1,37 +1,43 @@
 <script setup>
-
 const props = defineProps({
-    img: String,
-    value: String,
-    click: Function,
-    vModel: String
-})
-
+  img: String,
+  value: String,
+  clickFunc: Function,
+  disabled: Boolean,
+});
 </script>
 
 <template>
-    <div >
-        <button @click="props.click" class="move-btn" :value="props.value">
-            <img :src="props.img" />
-        </button>
-    </div>
+  <div class="move-btn">
+    <input
+      type="image"
+      :src="props.img"
+      @click="props.clickFunc"
+      :value="props.value"
+      :disabled="props.disabled"
+    />
+  </div>
 </template>
 
 <style scoped>
-
 .move-btn {
-    background-color: #DEE3FF;
-    border: 4px solid #8ac0ff;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    cursor: pointer;
+  background-color: #dee3ff;
+  border: 4px solid #8ac0ff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 
-    img {
-        width: 100px;
-        height: 100px;
-        /* margin: 0 auto; */
-    }
+  input {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+    padding: 18px;
+  }
 }
-
+.move-btn:focus-within {
+  border: 5px solid #4898fb;
+  box-shadow: #78aef1 0px 5px 15px;
+}
 </style>

@@ -1,26 +1,23 @@
 <script setup>
 const props = defineProps({
-    text: String,
-    onClick: Function
-})
+  text: String,
+  onClick: Function,
+});
 </script>
 
 <template>
-    <button type="button" onclick="props.onClick">{{ props.text }}</button>
+  <button type="button" :onclick="props.onClick">{{ props.text }}</button>
 </template>
 
-<style>
-
+<style scoped>
 button {
-    margin: 10px;
-    height: 40px;
-    width: 125px;
-    background-color: #DEE3FF;
-    border: 3px solid #8AC0FF;
-    border-radius: 10px;
-    font-family: "Itim", cursive;
-    cursor: pointer;
+  margin: 10px;
+  height: 40px;
+  width: 125px;
+  background-color: #dee3ff;
+  border: 3px solid #8ac0ff;
+  border-radius: 10px;
+  font-family: "Itim", cursive;
+  cursor: pointer;
 }
-
 </style>
-
