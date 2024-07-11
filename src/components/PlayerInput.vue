@@ -32,7 +32,7 @@ input[type="text"] {
   background: none;
   border: none;
   border-bottom: 2px solid #8ac0ff;
-  font-family: "Itim", cursive;
+  font-family: "Itim", "open-sans", sans-serif ;
   width: 200px;
   font-size: 24px;
 }

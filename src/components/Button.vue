@@ -17,7 +17,7 @@ button {
   background-color: #dee3ff;
   border: 3px solid #8ac0ff;
   border-radius: 10px;
-  font-family: "Itim", cursive;
+  font-family: "Itim", "open-sans", sans-serif ;
   cursor: pointer;
 }
 </style>
