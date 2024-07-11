@@ -1,14 +1,19 @@
-# rock-paper-scissor
+# Rock. Paper. Scissor. SHOOT!
 
-This template should help get you started developing with Vue 3 in Vite.
+Deployed at https://rock-paper-scissor-jet-kappa.vercel.app/
 
-## Recommended IDE Setup
+Play against a computer in this classic game of rock, paper, scissor.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+I've always had an interest in creating games and have been practing and working on projects that are game related. It's not only fun to test and play, but it does keep me in shape with ensuring that I am applying proper game logic and an aesthically pleasing UI. 
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Future Work
+- Unit testing
+- Allow for local co-op
+- SignUp/SignIn to enable users to view who they recently played with along with their scores. 
+
+
+![RPS Game](https://github.com/rialuz/todo-app/assets/154552454/8efed45c-bc6b-4e04-9920-8c1f714825f6)
 
 ## Project Setup
 
@@ -26,29 +31,4 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chromium
-npm run test:e2e -- --project=chromium
-# Runs the tests of a specific file
-npm run test:e2e -- tests/example.spec.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
 ```
